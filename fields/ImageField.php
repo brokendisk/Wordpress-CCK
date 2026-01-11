@@ -5,6 +5,8 @@
  */
 
 class ImageField extends GenericField {
+    public $key;
+    
     function __construct ($parent, $params) {
         parent::__construct ($parent, $params);
 

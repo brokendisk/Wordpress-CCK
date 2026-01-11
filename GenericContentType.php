@@ -31,6 +31,7 @@ abstract class GenericContentType {
     public $table;
     public $id_col;
     public $wpid_col;
+    public $taxonomies;
 
     public static $wp_keys = array('post_author', 'post_date',
         'post_date_gmt', 'post_content', 'post_content_filtered',

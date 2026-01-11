@@ -24,6 +24,8 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
 class Settings extends GenericBackendPage {
+    public $core_patch_dir;
+    
     function __construct() {
         $this->label = 'CCK-Settings';
 
